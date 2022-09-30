@@ -1,0 +1,26 @@
+.button-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    .button-div {
+        padding: 10px;
+        .button {
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 20px;
+            width: 100%;
+            &-clear {
+                background-color: rgb(162, 231, 162);
+                border-color: rgb(162, 231, 162);
+            }
+            &-generate {
+                background-color: rgb(197, 191, 243);
+                border-color: rgb(197, 191, 243);
+            }
+            &-refresh {
+                background-color: rgb(131, 237, 237);
+                border-color: rgb(131, 237, 237);
+            }
+        }
+    }
+}
